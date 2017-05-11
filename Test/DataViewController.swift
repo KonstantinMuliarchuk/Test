@@ -21,6 +21,7 @@ class DataViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        print("Hello World")
         // Dispose of any resources that can be recreated.
     }
 
