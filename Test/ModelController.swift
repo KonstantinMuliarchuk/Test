@@ -25,6 +25,7 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
 
     override init() {
         super.init()
+        print("hey you man")
         // Create the data model.
         let dateFormatter = DateFormatter()
         pageData = dateFormatter.monthSymbols
